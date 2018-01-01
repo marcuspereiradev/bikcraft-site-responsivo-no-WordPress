@@ -2,7 +2,7 @@
 // Template Name: Home
 get_header();
 ?>
-    
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>   
     <!-- INTRODUÇÃO -->
     <section class="introducao">
         <div class="container">
@@ -95,5 +95,7 @@ get_header();
                 <a href="sobre.html" class="btn btn-preto">Sobre</a>
             </div>
     </section>
+    
+    <?php endwhile; else: endif; ?>
     <?php get_footer(); ?>
     

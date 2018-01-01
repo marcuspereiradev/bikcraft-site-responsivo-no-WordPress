@@ -26,7 +26,7 @@
     <!-- MENU -->
     <header class="header">
         <div class="container">
-            <a href="index.html" class="grid-4"><img src="img/logo.png" alt="Bikcraft"></a>
+            <a href="/" class="grid-4"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Bikcraft"></a>
             
             <nav class="header_menu grid-12">
                 <ul>

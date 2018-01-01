@@ -2,15 +2,10 @@
 // Template Name: Contato
 get_header();
 ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>    
     
     <!-- INTRODUÇÃO -->
-    <section class="introducao_interna interna_contato">
-        <div class="container">
-            <h1>Contato</h1>
-            <p>tire suas dúvidas com a gente</p>
-        </div>
-    </section>
-    
+    <?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
     <!-- ORÇAMENTO -->
     <section class="contato container animar-interno">
 
@@ -55,5 +50,5 @@ get_header();
     <div class="container contato_mapa">
         <a href="https://www.google.com.br/maps/place/Botafogo,+Rio+de+Janeiro+-+RJ/@-22.9511872,-43.1944118,3956m/data=!3m1!1e3!4m5!3m4!1s0x997fe5efee9a25:0x3c77ca60168b5ea!8m2!3d-22.9511149!4d-43.1809269?hl=pt-BR" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
     </div>
-   
+    <?php endwhile; else: endif; ?>   
     <?php get_footer(); ?>
