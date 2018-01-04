@@ -59,11 +59,6 @@ get_header();
             <h2 class="subtitulo">Portifólio</h2>
             
             <?php include(TEMPLATEPATH . "/inc/clientes-portfolio.php"); ?>
-            
-            <div class="call-to-action">
-                <p><?php the_field('chamada_portfolio'); ?></p>
-                <a href="/portfolio/" class="btn">Portfólio</a>
-            </div>
         
         </div>
     </section>

@@ -8,21 +8,21 @@
     <ul class="qualidade_lista">
         <li class="grid-1-3">
             <h3><?php the_field('titulo_item_qualidade', $sobre); ?></h3>
-            <?php the_field('descricao_item_qualidade', $sobre); ?>
+            <?php the_field('descricao_qualidade', $sobre); ?>
         </li>
         <li class="grid-1-3">
             <h3><?php the_field('titulo_item_qualidade_2', $sobre); ?></h3>
-            <?php the_field('descricao_item_qualidade_2', $sobre); ?>
+            <?php the_field('descricao_qualidade_2', $sobre); ?>
         </li>
         <li class="grid-1-3">
             <h3><?php the_field('titulo_item_qualidade_3', $sobre); ?></h3>
-            <?php the_field('descricao_item_qualidade_3', $sobre); ?>
+            <?php the_field('descricao_qualidade_3', $sobre); ?>
         </li>
     </ul>
     
     <?php if(!is_page('sobre')) { ?>
     <div class="call-to-action">
-            <p><?php the_field('chamada_sobre'); ?></p>
+            <p><?php the_field('chamada_sobre', $sobre); ?></p>
             <a href="/sobre/" class="btn btn-preto">Sobre</a>
         </div>
     <?php } ?>

@@ -555,6 +555,12 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 
 }
 
+/* ESTILOS ADM WORDPRESS */
+
+.customize-support .header {
+    margin-top: 32px;
+}
+
 /* ////////// GERAL ///////// */
 
 body {
