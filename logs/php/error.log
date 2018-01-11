@@ -35,3 +35,51 @@
 [04-Jan-2018 17:49:45 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
 [04-Jan-2018 17:49:46 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
 [04-Jan-2018 17:49:46 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 14:14:41 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 14:14:41 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 14:14:43 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 14:14:43 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 17:15:37 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 17:15:37 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 17:15:38 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 17:15:38 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 18:05:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_custom_sizes' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[05-Jan-2018 19:07:02 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 19:07:02 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 19:07:04 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[05-Jan-2018 19:07:04 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[06-Jan-2018 13:03:46 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[06-Jan-2018 13:03:46 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[06-Jan-2018 13:03:47 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[06-Jan-2018 13:03:47 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[07-Jan-2018 13:45:57 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[07-Jan-2018 13:45:57 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[07-Jan-2018 13:45:58 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[07-Jan-2018 13:45:58 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[08-Jan-2018 17:36:21 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[08-Jan-2018 17:36:21 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[08-Jan-2018 17:36:22 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[08-Jan-2018 17:36:22 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 14:15:56 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 14:15:56 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 14:15:57 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[09-Jan-2018 14:15:57 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[10-Jan-2018 14:18:17 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[10-Jan-2018 14:18:17 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[10-Jan-2018 14:18:18 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[10-Jan-2018 14:18:18 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[11-Jan-2018 17:19:06 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[11-Jan-2018 17:19:06 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[11-Jan-2018 17:19:07 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[11-Jan-2018 17:19:07 UTC] PHP Notice:  Undefined index: SERVER_SOFTWARE in phar:///usr/local/bin/wp/php/WP_CLI/Runner.php(1020) : eval()'d code on line 75
+[11-Jan-2018 18:19:41 UTC] PHP Parse error:  syntax error, unexpected ''order'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/Bikcraft/page-produtos.php on line 14
