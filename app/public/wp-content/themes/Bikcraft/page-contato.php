@@ -9,7 +9,7 @@ get_header();
     <!-- ORÇAMENTO -->
     <section class="contato container animar-interno">
 
-        <form action="enviar.php" method="post" name="form" class="formphp contato_form grid-8">
+        <form action="<?php echo get_template_directory_uri(); ?>/enviar.php" method="post" name="form" class="formphp contato_form grid-8">
             <label for="nome">Nome</label>
             <input id="nome" name="nome" type="text">
             <label for="email">E-mail</label>
@@ -30,25 +30,21 @@ get_header();
 
         <div class="contato_dados grid-8">
             <h3>Dados</h3>
-            <span>+55 21 93223 3232</span>
-            <span>orcamento@bikcraft.com</span>
-            <span>Rua Ali Perto - Botafogo</span>
-            <span>Rio de Janeiro - RJ - Brasil</span>
+            <span><?php the_field('telefone') ?></span>
+            <span><?php the_field('email') ?></span>
+            <span><?php the_field('endereco_1') ?></span>
+            <span><?php the_field('endereco_2') ?></span>
 
             
             <h3>Redes Sociais</h3>
-            
-             <ul>
-                <li><a href="https://www.facebook.com" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Facebook"></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Instagram"></a></li>
-                <li><a href="https://www.twitter.com" target="_blank"><img src="img/redes-sociais/twitter.png" alt="Twitter"></a></li>
-            </ul>
+            <?php include(TEMPLATEPATH . "/inc/redes-sociais.php"); ?>
+             
         </div>
     </section>
     
     <!-- MAPA -->
     <div class="container contato_mapa">
-        <a href="https://www.google.com.br/maps/place/Botafogo,+Rio+de+Janeiro+-+RJ/@-22.9511872,-43.1944118,3956m/data=!3m1!1e3!4m5!3m4!1s0x997fe5efee9a25:0x3c77ca60168b5ea!8m2!3d-22.9511149!4d-43.1809269?hl=pt-BR" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
+        <a href="<?php the_field('link_mapa') ?>" target="_blank" class="grid-16"><img src="<?php the_field('imagem_mapa') ?>" alt="<?php the_field('texto_mapa') ?>"></a>
     </div>
-    <?php endwhile; else: endif; ?>   
-    <?php get_footer(); ?>
+<?php endwhile; else: endif; ?>   
+<?php get_footer(); ?>
