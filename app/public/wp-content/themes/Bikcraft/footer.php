@@ -46,11 +46,6 @@
     </div>
 </footer>
 
-<!-- JAVASCRIPT -->
-<script src="js/libs/jquery-3.2.1.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110940780-1"></script>
 <script>

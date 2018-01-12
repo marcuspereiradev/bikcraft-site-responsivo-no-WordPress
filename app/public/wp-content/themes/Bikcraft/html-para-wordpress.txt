@@ -212,25 +212,26 @@ add_action('init', 'custom_post_type_produtos');
 O template utilizado é single-slug.php (ou index.php caso não exista)
 
 <?php
-    $args = array (
-    'post_type' => 'produtos',
-    'order' => 'ASC'
-    );
-    $the_query = new WP_Query ( $args );
+	$args = array (
+		'post_type' => 'produtos',
+		'order'   => 'ASC'
+	);
+	$the_query = new WP_Query ( $args );
 ?>
 
 <?php if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-<h1><?php the_title(); ?></h1>
+	<h1><?php the_title(); ?></h1>
 <?php endwhile; else: endif; ?>
 
-
-
+// Reset o Loop
+<?php wp_reset_query(); wp_reset_postdata(); ?>
 
 19 - Adicionar o Menu
 
 // Habilitar Menus
 add_theme_support('menus');
 
+// Registrar o Menu
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' ));
 }
@@ -239,7 +240,45 @@ add_action( 'init', 'register_my_menu' );
 <?php
 	$args = array(
 		'menu' => 'principal',
+		'theme_location' => 'menu-principal',
 		'container' => false
 	);
 	wp_nav_menu( $args );
 ?>
+
+Adicionar o css
+.current_page_item a
+
+20 - Adicionar o JS e o CSS da forma correta
+
+// Registrar o CSS e o JS
+function bikcraft_scripts() {
+	// Desregistra o jQuery do Wordpress
+	wp_deregister_script('jquery');
+
+	// Registra o jQuery Novo
+	wp_register_script( 'jquery', get_template_directory_uri() . '/js/libs/jquery-1.11.2.min.js', array(), "1.11.2", true );
+
+	// Registra o Script de Plugins, com dependência do jquery, sem especificar versão e no footer do site
+	wp_register_script( 'plugins-script', get_template_directory_uri() . '/js/plugins.js', array( 'jquery' ), false, true );
+
+	// Registra o Script Principal, com dependência do jquery e plugins, sem especificar versão e no footer do site
+	wp_register_script( 'main-script', get_template_directory_uri() . '/js/main.js', array( 'jquery', 'plugins-script' ), false, true );
+
+	// Coloca script no site
+	wp_enqueue_script( 'main-script' );
+}
+add_action( 'wp_enqueue_scripts', 'bikcraft_scripts' );
+
+
+21 - Adicionar o SEO
+
+<?php wp_title(''); ?>
+
+<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+
+Adicionar a imagem ao tema
+
+22 - Adicionar o blog
+
+Criar uma página especifica para o blog e adicionar ela nas Configurações > Leitura

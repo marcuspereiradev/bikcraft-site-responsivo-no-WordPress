@@ -15,8 +15,6 @@
     
     <link rel="shortcut icon" href="favicon.ico">
 
-   
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
     <script src="js/libs/modernizr.custom.45655.js"></script>
     <!-- INÍCIO WORDPRESS HEADER-->
     <?php wp_head(); ?>
@@ -29,12 +27,14 @@
             <a href="/" class="grid-4"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Bikcraft"></a>
             
             <nav class="header_menu grid-12">
-                <ul>
-                    <li><a href="/sobre/">Sobre</a></li>
-                    <li><a href="/produtos/">Produtos</a></li>
-                    <li><a href="/portfolio/">Portfólio</a></li>
-                    <li><a href="/contato/">Contato</a></li>
-                </ul>
+                <?php
+                    $args = array(
+                        'menu' => 'principal',
+                        'theme_location' => 'menu-principal',
+                        'container' => false
+                    );
+                    wp_nav_menu( $args );
+                ?>
             </nav>
         </div>
     </header> 
