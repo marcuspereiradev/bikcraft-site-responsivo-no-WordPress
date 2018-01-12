@@ -37,3 +37,7 @@
 [11-Jan-2018 18:16:20] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
 [11-Jan-2018 18:16:27] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
 [11-Jan-2018 18:16:33] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[11-Jan-2018 21:48:32] NOTICE: fpm is running, pid 8
+[11-Jan-2018 21:48:32] NOTICE: ready to handle connections
+[12-Jan-2018 18:17:57] NOTICE: fpm is running, pid 8
+[12-Jan-2018 18:17:57] NOTICE: ready to handle connections
