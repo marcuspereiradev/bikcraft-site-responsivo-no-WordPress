@@ -1,12 +1,29 @@
 <?php get_header(); ?>
 
-    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-        <?php the_title(); ?>
-        <?php the_content(); ?>
+<article>
+	<section class="introducao_interna introducao-geral">
+		<div class="container">
+			<h1><?php the_title(); ?></h1>
+		</div>
+	</section>
 
-    <?php endwhile; else: ?>
-    <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-    <?php endif; ?>
+	<section class="container conteudo-geral">
+		<div class="grid-8">
+			<?php the_content(); ?>
+		</div>
+	</section>
+</article>
+
+<?php endwhile; else: ?>
+
+	<section class="introducao_interna introducao-geral">
+		<div class="container">
+			<h1>Página não encontrada.</h1>
+		</div>
+	</section>
+
+<?php endif; ?>
 
 <?php get_footer(); ?>
